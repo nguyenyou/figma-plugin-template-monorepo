@@ -1,0 +1,14 @@
+{
+  "name": "Figma Plugin Template Monorepo",
+  "id": "842128393887242011",
+  "api": "1.0.0",
+  "main": "apps/plugin/dist/code.js",
+  "ui": "apps/plugin/dist/index.html",
+  "editorType": ["dev"],
+  "capabilities": ["inspect", "vscode"],
+  "permissions": [],
+  "networkAccess": {
+    "allowedDomains": ["none"],
+    "devAllowedDomains": ["http://localhost:3000"]
+  }
+}

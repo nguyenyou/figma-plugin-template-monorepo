@@ -1,0 +1,21 @@
+{
+  "name": "types",
+  "version": "0.0.0",
+  "private": true,
+  "sideEffects": false,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {},
+  "dependencies": {
+    "@figma/plugin-typings": "^1.105.0",
+    "@types/react": "^18.3.17",
+    "@types/react-dom": "^18.3.5",
+    "tsconfig": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
